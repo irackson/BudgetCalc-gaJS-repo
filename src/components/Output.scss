@@ -1,0 +1,23 @@
+$mycolor: rgb(87, 72, 25);
+
+.Output {
+    margin-top: 50px;
+}
+
+.output-header h3 {
+    color: $mycolor;
+    text-align: center;
+}
+
+.output-header h5 {
+    color: black;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,136 @@
+.Input {
+    padding-bottom: 10px;
+}
+
+.input-header {
+    color: red;
+    text-align: center;
+}
+
+.inputForm-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.costs_incomes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.generalInput {
+    width: 50%;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: row;
+    align-items: center;
+}
+
+.generalInput-header,
+.essentialCosts-header,
+.incomeSources-header,
+.goals-header {
+    text-align: center;
+}
+
+.costsDropdown,
+.incomeDropdown {
+    margin-top: -20px;
+    font-size: 14px;
+}
+
+.costsDropdown,
+.incomeDropdown span {
+    margin-left: 5px;
+}
+
+.costs_add,
+.income_add {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.generalInput-field-container,
+.essentialCosts-field-container,
+.inputSources-field-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#inputSubmit {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ul p {
+    height: 0px;
+    font-size: 0px;
+}
+
+li {
+    width: 100%;
+}
+
+#addCostField,
+#addIncomeField {
+    width: 75px;
+}
+
+.addGoal-button {
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.goals-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.goals-list-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.goals-list-container li {
+    padding: 5px;
+}
+
+
+
+
+/* ::-webkit-datetime-edit { padding: 1em; }
+::-webkit-datetime-edit-fields-wrapper { background: silver; }
+::-webkit-datetime-edit-text { color: red; padding: 0 0.3em; }
+::-webkit-datetime-edit-month-field { color: blue; }
+::-webkit-datetime-edit-day-field { color: green; }
+::-webkit-datetime-edit-year-field { color: purple; }
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator { background: orange; } */
+
+::-webkit-datetime-edit {
+    font-size: 13px;
+    color: gray
+}
+
+::-webkit-calendar-picker-indicator {
+    height: 11px;
+    width: 11px;
+}
